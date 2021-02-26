@@ -1,0 +1,19 @@
+{
+  "name": "multichain-event-simulator",
+  "description": "smart contract testing for external events and out of turn events",
+  "version": "0.1.0",
+  "scripts": {
+    "cost": "node src/cost.js",
+    "correctness": "node src/correctness.js",
+    "heatmap": "node src/heatmap.js"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "json-2-csv": "^3.7.5",
+    "log-timestamp": "^0.3.0",
+    "seedrandom": "^3.0.5",
+    "solc": "^0.7.1",
+    "web3": "^1.2.9"
+  }
+}
